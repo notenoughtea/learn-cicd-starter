@@ -25,7 +25,6 @@ jobs:
       - name: Gosec
         run: gosec ./...
 
-
       - name: Rocket
         run: (go version)
   style:
